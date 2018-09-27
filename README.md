@@ -20,6 +20,12 @@ FAQs
 -------------
 Taken from CatLog's FAQ:
 
+#### How to grant the app the necessary permissions if I don't have root?
+
+```sh
+adb shell pm grant com.pluscubed.matloglibre.debug android.permission.READ_LOGS
+```
+
 #### Where are the logs saved?
 
 On the SD card, under ```/sdcard/catlog/saved_logs/```.
